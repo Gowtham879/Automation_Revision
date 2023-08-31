@@ -1,0 +1,535 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-31T05:56:11.401Z",
+        "line": 11,
+        "name": "User first able to Register the DemoWebShop",
+        "description": "",
+        "id": "automate-the-demowebshop;user-first-able-to-register-the-demowebshop;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7724959300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the Application",
+            "match": {
+              "location": "stepDefination.Stepdefination.user_launch_the_Application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2842615900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able to give the PersonalDetails and Create the Password such as Gender and  \"Ramesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ramesh\"",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefination.Stepdefination.user_is_able_to_give_the_PersonalDetails_and_Create_the_Password_such_as_Gender_and(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4774612700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "and \"Aravind\" \"Shivaji009@gmail.com\" and  \"Shivaji009\" \"Shivaji009\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aravind\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Shivaji009@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Shivaji009\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Shivaji009\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefination.Stepdefination.and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6146409200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the Register button and Verify the Confirm message.",
+            "match": {
+              "location": "stepDefination.Stepdefination.click_on_the_Register_button_and_Verify_the_Confirm_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157518300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Application.",
+            "match": {
+              "location": "stepDefination.Stepdefination.close_the_Application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-31T05:56:33.257Z",
+        "line": 22,
+        "name": "User is able to Login the DemoWebShop",
+        "description": "",
+        "id": "automate-the-demowebshop;user-is-able-to-login-the-demowebshop;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5887794000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User launch the Application",
+            "match": {
+              "location": "stepDefination.Stepdefination.user_launch_the_Application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1066200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 570616500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "after Registration Completed User able to login with same Register valid Credentials",
+            "match": {
+              "location": "stepDefination.Stepdefination.after_Registration_Completed_User_able_to_login_with_same_Register_valid_Credentials()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1448659800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "\"Charli777@gmail.com\" and \"Charli777\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Charli777@gmail.com\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Charli777\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefination.Stepdefination.and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41467000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the Login Email",
+            "match": {
+              "location": "stepDefination.Stepdefination.verify_the_Login_Email()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139911600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the Application.",
+            "match": {
+              "location": "stepDefination.Stepdefination.close_the_Application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-31T05:56:41.378Z",
+        "line": 39,
+        "name": "User is able to Add the Product to Cart and Verify it",
+        "description": "",
+        "id": "automate-the-demowebshop;user-is-able-to-add-the-product-to-cart-and-verify-it;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7020022700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User launch the Application",
+            "match": {
+              "location": "stepDefination.Stepdefination.user_launch_the_Application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2656516600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is select \"Computers\" from \"Desktops\" select the \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computers\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Desktops\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Build your own computer\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefination.Stepdefination.user_is_select_from_select_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2257913900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "applying the Filtersfrom DropDowns \"Processor\" \"2.2 GHz Intel\" and \"RAM\" \"8GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Processor\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"2.2 GHz Intel\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"RAM\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"8GB\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepDefination.Stepdefination.applying_the_Filtersfrom_DropDowns_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546627000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is apply\u0027s the Filters Click on AddtoCart",
+            "match": {
+              "location": "stepDefination.Stepdefination.user_is_apply_s_the_Filters_Click_on_AddtoCart(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "FilterName",
+                  "FilterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "HDD",
+                  "400 GB  [+100.00]"
+                ]
+              },
+              {
+                "cells": [
+                  "OS",
+                  "Windows 10  [+60.00]"
+                ]
+              },
+              {
+                "cells": [
+                  "Software",
+                  "Acrobat Reader  [+10.00]"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17462643100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is going through CheckoutProcess",
+            "match": {
+              "location": "stepDefination.Stepdefination.user_is_going_through_CheckoutProcess()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1006700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2341185500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Order Confirm",
+            "match": {
+              "location": "stepDefination.Stepdefination.verify_Order_Confirm()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 163791300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Close the Application.",
+            "match": {
+              "location": "stepDefination.Stepdefination.close_the_Application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1004300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefination.Stepdefination.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      }
+    ],
+    "name": "Automate the DemoWebShop",
+    "description": "",
+    "id": "automate-the-demowebshop",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFile/DemoWenShop.feature",
+    "tags": []
+  }
+]
