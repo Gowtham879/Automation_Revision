@@ -8,7 +8,7 @@ Feature: Automate the DemoWebShop
     And Close the Application.
     Examples:
       | FirstName| LastName| Email              | Password   | ConfirmPassword |
-      | Ramesh   | Aravind | Shivaji009@gmail.com| Shivaji009| Shivaji009      |
+      | Aravind  | Ramesh  | Ramesh009@gmail.com| Shivaji089 | Shivaji089      |
 
   @Login
   Scenario Outline: User is able to Login the DemoWebShop
